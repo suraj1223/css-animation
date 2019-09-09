@@ -1,0 +1,53 @@
+section{
+    font-family: "Comic Sans MS",sans-serif;
+    background-color: lightgray;
+    padding: 15px;
+    margin: 15px;
+    text-align: center;
+}
+article{
+    background: linear-gradient(45deg,black,red);
+    color: white;
+    padding: 10px;
+    margin: 5px;
+    width: 250px;
+    display: inline-block;
+    border-radius: 200px;
+    transition: all 5s;
+    animation: move 0.5s infinite linear;
+}
+.trans-1:hover{
+     transform: translateY(80px);
+     background: linear-gradient(15deg,red,black);
+
+ }
+
+.trans-2:hover{
+    transform: scale(2.5,2.5);
+    background: linear-gradient(45deg,red,black);
+}
+
+.trans-3:hover{
+    transform: scale(0.2,0.2);
+    background: linear-gradient(45deg,red,black);
+}
+
+.trans-4:hover{
+     transform: rotate(-360deg) scale(0.2,0.2);
+     background: linear-gradient(45deg,red,black);
+ }
+
+.trans-5:hover{
+    transform: perspective(10px) rotateX(360deg);
+    background: linear-gradient(45deg,red,black);
+}
+
+.trans-6:hover{
+     transform: perspective(10px) rotateY(180deg);
+     background: linear-gradient(45deg,red,black);
+ }
+
+.trans-7:hover{
+    transform: rotate3d(10,-5,10,-45deg) scale(10.2,10.2);
+    background: linear-gradient(45deg,blueviolet,blue);
+}
